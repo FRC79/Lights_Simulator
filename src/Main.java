@@ -44,7 +44,7 @@ public class Main {
 
 		// Create character bitmaps
 		// Bitmaps use binary in 5 vertical colums to determine which pixels are active
-		// Bits start top and go down
+		// Bits start top and go down for 7 bits
 		createChar('!', 0, 0, 0x5F, 0, 0);
 		createChar('"', 0, 0x07, 0, 0x07, 0);
 		createChar('#', 0x14, 0x7F, 0x14, 0x7F, 0x14);
